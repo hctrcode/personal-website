@@ -1,278 +1,495 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Personal Website</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap" rel="stylesheet">
-    </head>
-    <body>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal Website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-        <div class="container-fluid no-padding">
-           <nav class="navbar navbar-expand-sm navbar-dark bg-darky fixed-top">
-            <div class="container-fluid">
-                <a class="navbar-brand d-sm-none" href="#"><span class="red">Hector</span> Lorenzo</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="row collapse navbar-collapse bg-darky" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
-                  <li class="nav-item">
-                    <a class="nav-link blue" href="#scrollspyHeading1">About me</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link blue" href="#scrollspyHeading2">Skills</a>
-                  </li>
-                  <a class="navbar-brand d-none d-md-block" href="#"><span class="red">Hector </span><span class="lighty">Lorenzo</span></a>
-                  <a class="navbar-brand d-none d-sm-block d-md-none" href="#"><span class="red">H</span><span class="lighty">L</span></a>
-                  <li class="nav-item">
-                    <a class="nav-link blue" href="#scrollspyHeading3">Portfolio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link blue" href="#scrollspyHeading4">Contact</a>
-                  </li>
-                </ul>
+    <script src="scripts.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid no-padding my-header">
+      <nav class="navbar navbar-expand-sm navbar-dark bg-darky fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand d-sm-none" href="#"
+            ><span class="red">Hector</span> Lorenzo</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="row collapse navbar-collapse bg-darky" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link blue" href="#scrollspyHeading1">About me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link blue" href="#scrollspyHeading2">Skills</a>
+              </li>
+              <a class="navbar-brand d-none d-md-block" href="#"
+                ><span class="red">Hector </span
+                ><span class="lighty">Lorenzo</span></a
+              >
+              <a class="navbar-brand d-none d-sm-block d-md-none" href="#"
+                ><span class="red">H</span><span class="lighty">L</span></a
+              >
+              <li class="nav-item">
+                <a class="nav-link blue" href="#scrollspyHeading3">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link blue" href="#scrollspyHeading4">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div
+      class="container-fluid no-padding"
+      style="position: absolute; top: 0px"
+    >
+      <div class="intro bg-darky">
+        <div class="content">
+          <h3 class="lighty">Hector Lorenzo</h3>
+          <h2>Gaining insight for better decisions</h2>
+        </div>
+      </div>
+
+      <div class="row no-margin bg-darky quote">
+        <div class="container">
+          <blockquote class="no-padding">
+            <q class="lighty no-margin"
+              >Data is like an iron ore, it needs to be treated carefully to
+              become a powerful tool</q
+            >
+          </blockquote>
+        </div>
+      </div>
+
+      <div class="row no-margin bg-blue darky" id="scrollspyHeading1">
+        <div class="col about" id="about-me">
+          <div class="container main about">
+            <div class="row gx-5">
+              <div class="col-xs-12 col-md-9">
+                <h2>About me</h2>
+                <p>
+                  Hi, my name is Hector and I am a mechanical engineer, always
+                  with my mind set on <strong>efficiency</strong>,
+                  <strong>optimization</strong> and
+                  <strong>performance</strong>. This has led me down the path of
+                  modeling systems and simulation, which involves analyzing a
+                  lot of data with the aim of transforming it into
+                  <strong>insights</strong>.
+                </p>
+                <p>
+                  In this process I have found it necessary to improve
+                  programming skills by going from Matlab to Python and
+                  recovering the previously forgotten R. At this point I found
+                  it necessary to specialize in <strong>data science</strong>,
+                  taking a master's course in Big Data and Business Intelligence
+                  to learn the techniques and necessary technologies.
+                </p>
+                <p>
+                  I consider myself a <strong>proactive</strong> person, driven
+                  by <strong>curiosity</strong> to understand products, markets
+                  and the environments where they are developed, paying special
+                  <strong>attention to detail</strong>. In order to achieve the
+                  goals, I think that the teams have to have a common objective
+                  where everyone rows in the same direction and where the
+                  diversity of the group feeds back from the synergies generated
+                  by compensating the strengths of some the weaknesses of
+                  others.
+                </p>
+                <p>
+                  Do you want to work together? Please reach out to me by
+                  <a href="mailto: hectorlorenzo91@gmail.com" class="link red"
+                    >e-mail</a
+                  >.
+                </p>
+              </div>
+              <div class="col-xs-12 col-md-3 imgDiv">
+                <span class="helper"></span>
+                <img src="foto.jpg" alt="Profile picture Claudia ten Hoope" />
               </div>
             </div>
-        </nav> 
+          </div>
         </div>
-        
+      </div>
 
-        <div class="container-fluid no-padding" style="position: absolute; top: 0px ">
-           
-            <div class="intro bg-darky">
-                <div class="content">
-                    <h3 class="lighty">Hector Lorenzo</h3>
-                    <h2>Gaining insight for better decisions</h2>
-                </div>
+      <div class="row no-margin bg-lighty darky" id="scrollspyHeading2">
+        <div class="col">
+          <div class="container main skills">
+            <div class="row">
+              <h2>Technical Skills</h2>
             </div>
-
-            <div class="row no-margin bg-darky quote">
-                <div class="container">
-                    <blockquote class="no-padding">
-                        <p class="lighty no-margin">Data is like an iron ore, it needs to be treated carefully to become a powerful tool.</p>
-                    </blockquote>
-                </div>
+            <div class="row">
+              <p>
+                These are the technical skills that I have been obtaining and
+                where I continue to improve day by day. All this developed on a
+                basis of mathematics and statistics focused on practice.
+              </p>
             </div>
-
-            <div class="row no-margin bg-blue darky">
-                <div class="col about" id="about-me">
-                    <div class="container main about">
-                    <div class="row gx-5">
-                        <div class="col-xs-12 col-sm-9">
-                            <h2 id="scrollspyHeading1">About me</h2>
-                            <p>Hi, my name is Hector and I am a mechanical engineer, always with my mind set on efficiency, optimization and performance. This has led me down the path of modeling systems and simulation, which involves analyzing a lot of data with the aim of transforming it into insights.</p>
-                            <p>In this process I have found it necessary to improve programming skills by going from Matlab to Python and recovering the previously forgotten R. At this point I found it necessary to specialize in <strong>data science</strong>, taking a master's course in Big Data and Business Intelligence to learn the techniques and necessary technologies.</p> 
-                            <p>I consider myself a proactive person who tries to do things as well as possible and who is not satisfied with just doing things. I like continuous improvement.</p>
-                            <p>Do you want to work together? Please reach out to me by e-mail.</p>
-                          </div>
-                        
-                        <img src="foto.png" alt="Profile picture Claudia ten Hoope" class="col-xs-12 col-sm-3">
+            <div class="container" style="padding-left: 25px">
+              <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                  <div class="card mb-3" style="max-width: 600px">
+                    <div class="row g-0">
+                      <div class="col-md-4 logo">
+                        <img
+                          src="python.png"
+                          class="img-fluid rounded-start"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <span class="helper"></span>
+                          <h5 class="card-title">Programming Language</h5>
+                          <p class="card-text">
+                            Python and R focused on data processing with
+                            packages such as Pandas, Numpy, Seaborn,
+                            ScikitLearn, Dplyr, ggplot2, StatsModel.
+                          </p>
+                          <p class="card-info">
+                            <small class="red">Python, R and Matlab</small>
+                          </p>
                         </div>
-                    </div>
                       </div>
                     </div>
-                
-        
-        
-            <div class="row no-margin bg-lighty darky" >
-                <div class="col">
-                    <div class="container main skills">
-                        <div class="row">
-                            <h2 id="scrollspyHeading2">Technical Skills</h2>
-                        </div>
-                        <div class="row">
-                            <p>These are the technical skills that I have been obtaining and where I continue to improve day by day. All this developed on a basis of mathematics and statistics focused on practice.</p>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-6">
-                                <div class="card mb-3 " style="max-width: 540px;">
-                                    <div class="row g-0">
-                                      <div class="col-md-4 logo">
-                                        <img src="python.png" class="img-fluid rounded-start" alt="...">
-                                      </div>
-                                      <div class="col-md-8">
-                                        <div class="card-body">
-                                          <h5 class="card-title">Programming Language</h5>
-                                          <p class="card-text">Statistics is the heart of data science programming and thus it is a must for a professional to develop expertise in Python and R language.</p>
-                                          <p class="card-text"><small class="red">Python, R and Matlab</small></p>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                            </div>
-                            <div class="col-xs-12 col-sm-6">
-                                <div class="card mb-3" style="max-width: 540px;">
-                                    <div class="row g-0">
-                                      <div class="col-md-4 logo">
-                                        <img src="spark.png" class="img-fluid rounded-start" alt="...">
-                                      </div>
-                                      <div class="col-md-8">
-                                        <div class="card-body">
-                                          <h5 class="card-title">Big Data</h5>
-                                          <p class="card-text">As data science involves large-scale data analysis, exploring large datasets, mining them, and accelerating data-driven innovation.</p>
-                                          <p class="card-text"><small class="red">Spark and Hadoop</small></p>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                          <div class="card-deck">
-                            <div class="col-xs-12 col-sm-6">
-                                <div class="card mb-3" style="max-width: 540px;">
-                                    <div class="row g-0">
-                                      <div class="col-md-4 logo">
-                                        <img src="powerbi.png" class="img-fluid rounded-start" alt="...">
-                                      </div>
-                                      <div class="col-md-8">
-                                        <div class="card-body">
-                                          <h5 class="card-title">Data Analysis and Visualization</h5>
-                                          <p class="card-text">Exploratory Data Analysis (EDA), Data Wrangling and Data manipulation. Data Visulization.</p>
-                                          <p class="card-text"><small class="red">PowerBI</small></p>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                            </div>
-                            <div class="col-xs-12 col-sm-6">
-                                <div class="card mb-3" style="max-width: 540px;">
-                                    <div class="row g-0">
-                                      <div class="col-md-4 logo">
-                                        <img src="scikit.png" class="img-fluid rounded-start" alt="...">
-                                      </div>
-                                      <div class="col-md-8">
-                                        <div class="card-body">
-                                          <h5 class="card-title">Machine Learning</h5>
-                                          <p class="card-text">Supervised and Unsupervised Learning. Classification vs Regression. Ensemble models. Hyperparameter adjust.</p>
-                                          <p class="card-text"><small class="red">Scikit-Learn, Tensorflow</small></p>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                            </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-6">
-                                <div class="card mb-3 " style="max-width: 540px;">
-                                    <div class="row g-0">
-                                      <div class="col-md-4 logo">
-                                        <img src="database.png" class="img-fluid rounded-start" alt="...">
-                                      </div>
-                                      <div class="col-md-8">
-                                        <div class="card-body">
-                                          <h5 class="card-title">Database</h5>
-                                          <p class="card-text">Data Extraction, Transformation and Loading (ETL). Data Warehouse.</p>
-                                          <p class="card-text"><small class="red">MySQL, MongoDB and YYY</small></p>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                            </div>
-                            <div class="col-xs-12 col-sm-6">
-                                <div class="card mb-3" style="max-width: 540px;">
-                                    <div class="row g-0">
-                                      <div class="col-md-4 logo">
-                                        <img src="web.png" class="img-fluid rounded-start" alt="...">
-                                      </div>
-                                      <div class="col-md-8">
-                                        <div class="card-body">
-                                          <h5 class="card-title">Cloud Computing</h5>
-                                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                          <p class="card-text"><small class="red">Databricks</small></p>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                            </div>
-                        </div>
-                    </div>
+                  </div>
                 </div>
-            </div>
-
-            <div class="row no-margin bg-darky lighty" >
-                <div class="col">
-                    <div class="container main portfolio">
-                        <h2 id="scrollspyHeading3">Portfolio</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quis ratione obcaecati provident aperiam ipsam at sed ex, impedit accusamus laborum quo nulla sapiente eum facere eveniet! Nesciunt, soluta sed!</p>
-                        <div class="Project-1">
-                            
+                <div class="col-xs-12 col-sm-6">
+                  <div class="card mb-3" style="max-width: 600px">
+                    <div class="row g-0">
+                      <div class="col-md-4 logo">
+                        <img
+                          src="spark.png"
+                          class="img-fluid rounded-start"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <span class="helper"></span>
+                          <h5 class="card-title">Big Data</h5>
+                          <p class="card-text">
+                            Hadoop and Spark as tools to process large amounts
+                            of data as it is produced today. Distributed
+                            systems.
+                          </p>
+                          <p class="card-info">
+                            <small class="red">Spark and Hadoop</small>
+                          </p>
                         </div>
-                        <div class="projet-2 container">
-                            <div id="carouselExampleCaptions" class="carousel carousel-dark slide" data-bs-ride="false">
-                            
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <div class="card">
-                                            <img src="pro1.jpg" class="d-block w-100" alt="...">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Chrun Prediction</h5>
-                                                <p class="card-text">Example of Classification with R.</p>
-                                                <a href="#" class="btn btn-primary bg-red darky">Go notebook</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                
-                                  <div class="carousel-item">
-                                    <div class="card">
-                                        <img src="pro2.jpg" class="d-block w-100" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Electric Cost Prediction</h5>
-                                            <p class="card-text">Example of Regression with PySpark in Databricks.</p>
-                                            <a href="#" class="btn btn-primary bg-red darky">Go notebook</a>
-                                        </div>
-                                    </div>
-                                  </div>
-                                  <div class="carousel-item">
-                                    <div class="card">
-                                        <img src="pro2.jpg" class="d-block w-100" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Titanic Survival</h5>
-                                            <p class="card-text">Example of Classification with python in Kaggle</p>
-                                            <a href="#" class="btn btn-primary bg-red darky">Go notebook</a>
-                                        </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Next</span>
-                                </button>
-                              </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                  <div class="card mb-3" style="max-width: 600px">
+                    <div class="row g-0">
+                      <div class="col-md-4 logo">
+                        <img
+                          src="powerbi.png"
+                          class="img-fluid rounded-start"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <span class="helper"></span>
+                          <h5 class="card-title">
+                            Data Analysis and Visualization
+                          </h5>
+                          <p class="card-text">
+                            Data wrangling. Exploratory data analysis. Use of
+                            graphics to convey ideas or concepts clearly.
+                            Feature Engineering.
+                          </p>
+                          <p class="card-info">
+                            <small class="red">PowerBI</small>
+                          </p>
                         </div>
+                      </div>
                     </div>
+                  </div>
                 </div>
-            </div>
-
-            <div class="row no-margin bg-lighty darky">
-                <div class="col">
-                    <div class="container main contact">
-                        <h2 id="scrollspyHeading4">Contact Details</h2>
-                        <p>Hector Lorenzo</p>
-                        <p>email: hectorlorenzo91@gmail.com</p>
-                        <p>Github: https://github.com/hctrcode</p>
-                        <p>LinkedIn: NA</p>
-
+                <div class="col-xs-12 col-sm-6">
+                  <div class="card mb-3" style="max-width: 600px">
+                    <div class="row g-0">
+                      <div class="col-md-4 logo">
+                        <img
+                          src="scikit.png"
+                          class="img-fluid rounded-start"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <span class="helper"></span>
+                          <h5 class="card-title">Machine Learning</h5>
+                          <p class="card-text">
+                            Machine learning algorithms. Regression and
+                            classification. Cross validation. Hyper-parameter
+                            tuning. Metrics.
+                          </p>
+                          <p class="card-info">
+                            <small class="red">Scikit-Learn, Tensorflow</small>
+                          </p>
+                        </div>
+                      </div>
                     </div>
+                  </div>
                 </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                  <div class="card mb-3" style="max-width: 600px">
+                    <div class="row g-0">
+                      <div class="col-md-4 logo">
+                        <img
+                          src="database.png"
+                          class="img-fluid rounded-start"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <span class="helper"></span>
+                          <h5 class="card-title">Database</h5>
+                          <p class="card-text">
+                            DML commands in SQL. NoSQL (MongoDB). Extraction,
+                            transformation and loading
+                          </p>
+                          <p class="card-info">
+                            <small class="red">MySQL, MongoDB and YYY</small>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                  <div class="card mb-3" style="max-width: 600px">
+                    <div class="row g-0">
+                      <div class="col-md-4 logo">
+                        <img
+                          src="web.png"
+                          class="img-fluid rounded-start"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <span class="helper"></span>
+                          <h5 class="card-title">Cloud Computing</h5>
+                          <p class="card-text">
+                            The general trend in the IT sector is to migrate a
+                            large part of the systems to the cloud due to the
+                            flexibility that these provide. Databricks.
+                          </p>
+                          <p class="card-info">
+                            <small class="red">Databricks</small>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-        
-        <footer>
-            <p>Hector Lorenzo<br>hectorlorenzo91@gmail.com</p>
-            <p>Las Palmas (Spain)</p>
-        </footer>
-    </body>
-    <script src="script.js" defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+      </div>
 
+      <div class="row no-margin bg-darky lighty">
+        <div class="col">
+          <div class="container main portfolio">
+            <h2 id="scrollspyHeading3">Portfolio</h2>
+            <p>
+              These are some of the projects I have worked on, currently I use
+              them to practice data science tools as well as learn new
+              techniques to apply.
+            </p>
+            <div class="Project-1"></div>
+            <div class="projet-2 container">
+              <div
+                id="carouselExampleCaptions"
+                class="carousel carousel-dark slide"
+                data-bs-ride="false"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="card">
+                      <div
+                        style="background-image: url('pro1.jpg')"
+                        class="card-img-background"
+                      ></div>
+                      <div class="card-body">
+                        <h5 class="card-title darky">Chrun Prediction</h5>
+                        <p class="card-text">
+                          Example of Classification with R.
+                        </p>
+                        <a href="#" class="btn btn-primary bg-darky hov-red"
+                          >Go notebook</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="card">
+                      <div
+                        style="background-image: url('pro2.jpg')"
+                        class="card-img-background"
+                      ></div>
+                      <div class="card-body">
+                        <h5 class="card-title darky">
+                          Electric Cost Prediction
+                        </h5>
+                        <p class="card-text">
+                          Example of Regression with PySpark in Databricks.
+                        </p>
+                        <a href="#" class="btn btn-primary bg-darky hov-red"
+                          >Go notebook</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card">
+                      <div
+                        style="background-image: url('pro2.jpg')"
+                        class="card-img-background"
+                      ></div>
+                      <div class="card-body">
+                        <h5 class="card-title darky">Titanic Survival</h5>
+                        <p class="card-text">
+                          Example of Classification with python in Kaggle
+                        </p>
+                        <a href="#" class="btn btn-primary bg-darky hov-red"
+                          >Go notebook</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row no-margin bg-lighty darky">
+        <div class="col">
+          <div class="container main contact">
+            <h2 id="scrollspyHeading4">Contact Details</h2>
+            <p class="foot-name"><span class="red">Hector</span> Lorenzo</p>
+            <p class="foot-links">
+              <a href="mailto: hectorlorenzo91@gmail.com"
+                ><i
+                  class="fa fa-envelope darky hov-red-font"
+                  aria-hidden="true"
+                ></i
+              ></a>
+
+              hectorlorenzo91@gmail.com
+            </p>
+            <p class="foot-links">
+              <a href="https://github.com/hctrcode" target="_blank"
+                ><i
+                  class="fa fa-github darky hov-red-font"
+                  aria-hidden="true"
+                ></i
+              ></a>
+              https://github.com/hctrcode
+            </p>
+            <p class="foot-links">
+              <a href="https://github.com/hctrcode" target="_blank"
+                ><i
+                  class="fa fa-linkedin-square darky hov-red-font"
+                  aria-hidden="true"
+                ></i
+              ></a>
+              NA
+            </p>
+            <p class="foot-links">
+              <i
+                class="fa fa-map-marker darky hov-red-font"
+                aria-hidden="true"
+              ></i>
+              Las Palmas de Gran Canaria, Spain
+            </p>
+          </div>
+          <p style="text-align: center; font-size: 15px">
+            Copyright 2022 © Hector Lorenzo
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>Hector Lorenzo<br />hectorlorenzo91@gmail.com</p>
+      <p>Las Palmas (Spain)</p>
+    </footer>
+  </body>
+  <script src="script.js" defer></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"
+  ></script>
 </html>
