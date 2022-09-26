@@ -215,6 +215,7 @@ footer {
 .skills img {
   height: 100px;
   width: 100px;
+  filter: grayscale(100%);
 }
 .carousel-inner {
   padding: 1em;
